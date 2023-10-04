@@ -222,7 +222,7 @@ int main() {
     while(1) {
         sleep_ms(1);
         if (MODE == 3) {
-            put_morse_str(PWM_CONTROL, "Hello world");
+            put_morse_str(PWM_CONTROL, "I love you");
             sleep_ms(3000);
         }
     }
